@@ -5,12 +5,11 @@ public class GoogleBillboard {
 	public static void main(final String[] args) {
   	for(int i = 2; i < e.length() - 10; i++)
   	{
-    		if(isPrime(Double.parseDouble(e.substring(i, 10 + i))) == true)
+    		if(isPrime(Double.parseDouble(e.substring(i, 10 + i))))
     		{
       			System.out.println(Double.parseDouble(e.substring(i, 10 + i)));
     		}
   	}
-	System.out.println("Replace this string with your answer!");
 	}
 	
 
