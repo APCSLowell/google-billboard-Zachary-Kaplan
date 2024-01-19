@@ -8,6 +8,7 @@ public class GoogleBillboard {
     		if(isPrime(Double.parseDouble(e.substring(i, 10 + i))))
     		{
       			System.out.println(Double.parseDouble(e.substring(i, 10 + i)));
+			break;
     		}
   	}
 	}
